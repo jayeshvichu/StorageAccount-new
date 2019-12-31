@@ -17,7 +17,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "[concat('store', uniquestring(resourceGroup().id))]"
+    "storageAccountName": "$Dev"
   },
   "resources": [
     {
