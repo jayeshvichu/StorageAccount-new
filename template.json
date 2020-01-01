@@ -17,7 +17,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "$(Dev)"
+    "storageAccountName": "[$(Dev)]"
   },
   "resources": [
     {
